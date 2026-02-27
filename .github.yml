@@ -1,0 +1,3 @@
+run_on_commit:
+  script:
+    - echo "SUCCESS RUN ON EVERY COMMIT"
