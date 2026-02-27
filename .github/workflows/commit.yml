@@ -1,0 +1,12 @@
+name: Run on Commit
+
+on: [push]
+
+jobs:
+  run_on_commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Run script
+        run: echo "SUCCESS RUN ON EVERY COMMIT"
